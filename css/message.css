@@ -1,0 +1,150 @@
+body,div,h1,h2,h3,h4,h5,span,p,ul,li{
+    padding: 0;
+    margin: 0;
+}
+/* 头部 sart */
+header{
+    width: 100%;
+    height: 51px;
+    background-color: rgb(48, 48, 48);
+}
+header .nav{
+    width: 1124px;
+    
+    height: 51px;
+    margin: 0 auto;
+    background-color: rgb(48, 48, 48);
+}
+header .nav ul{
+    list-style: none;
+    
+}
+header .nav li{
+    padding: 15px 35px;
+
+    display: inline-block;
+}
+header .nav li:hover{
+    background-color: rgb(255, 90, 34);
+}
+.nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav .active{
+    background-color: rgb(255, 90, 34);
+}
+/* 头部 end */
+/* 表单 start */
+.container {
+    width: 1124px;
+    margin: 0 auto;
+}
+.container #froms{
+    margin-top: 80px;
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+    vertical-align: middle;
+
+}
+.container #froms p{
+    margin-bottom: 20px;
+}
+.container #froms .entry{
+    width: 194px;
+    /* font-size: 12px; */
+    height: 34px;
+    border: 1px solid rgb(161, 161, 161);
+    margin-right: 124px;
+
+    
+}
+
+.container #froms #content{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 929px;
+     height: 80px;
+     margin-left: 50px;
+}
+.container #froms .btn{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 15px 60px;
+    background-color: rgb(255, 90, 34);
+    width: 11%;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+}
+/* 翻页 */
+.content .page{
+    width: 100%;
+
+}
+.container .page ul{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+.container .page li{
+    display: inline-block;
+}
+.container .page .pages{
+    display: inline-block;
+    border: 1px solid #aaa;
+    width: 65px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 3px;
+    
+}
+.container .page .pages1{
+    display: inline-block;
+    border: 1px solid #aaa;
+    width: 65px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 3px;
+    
+}
+.container .page .one{
+    border-top: 4px solid transparent;
+    border-right: 4px solid #d6d6d6;
+    border-bottom: 4px solid transparent;
+    width: 0;
+    height: 0;
+    display: inline-block;
+}
+.container .pages1 .two{
+    border-top: 4px solid transparent;
+    border-left: 4px solid #d6d6d6;
+    border-bottom: 4px solid transparent;
+    width: 0;
+    height: 0;
+    display: inline-block;
+
+}
+.container .page p{
+    display: inline-block;
+}
+
+.container .page #btn{
+    /* background-color: rgb(255, 90, 34); */
+    padding: 6px 16px;
+    border-radius: 3px;
+   
+    margin-left: 10px;
+    border: 1px solid #aaa;
+}
+
+
+
+
+/* 表单 end */

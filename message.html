@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>留言</title>
+    <link rel="stylesheet" href="./css/message.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">公益项目</a></li>
+                <li><a href="">爱心捐物</a></li>
+                <li><a href="">助学资金</a></li>
+                <li class="active"><a href="">关于我们</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <form action="" method="post" enctype="multipart/form-data" id="froms">
+            <p>发表您的留言：</p>
+            <div style="margin-left:10px;">
+                姓名：
+                <div style="display:inline-block;">
+                    <input class="entry" type="text"><i style="color:red;margin-left: -120px;">*</i>
+                </div>
+
+                邮箱：<input class="entry" type="text">
+                电话：<input class="entry" type="text">
+                <span style="margin-top: 85px;margin-left: -1113px;position:absolute;">内容：</span> <textarea name="" id="content"
+                    cols="50" rows="3" placeholder="留言需审核后才会显示"></textarea>
+                <div class="btn">
+
+                    提交留言
+                </div>
+                <p style="border-bottom:1px dashed #ddd;padding-bottom:12px;">留言：</p>
+                <p style="margin-top:20px;color:rgb(95, 95, 95);">暂无留言</p>
+            </div>
+            <div class="page">
+                <ul>
+                    <li class="pages">
+                        <div class="one"></div>
+                        <p>上一页</p>
+
+                    </li>
+                    <li style="width:30px;height:30px;">1</li>
+                    <li class="pages1">
+                        
+                        <p>下一页</p>
+                        <div class="two"></div>
+                    </li>
+                    <li style="margin-left:8px;margin-right:8px;">共1页</li>
+                    <li>
+                        到第
+                        <input style="margin-bottom:-8px;margin-left: 10px;margin-right: 4px;border:1px solid #aaa;border-radius: 3px;display:inline-block;width: 50px;height: 27px;" type="text">
+                        
+                        页
+                    </li>
+                    <li>
+                        <div id="btn">确定</div>
+                    </li>
+                </ul>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

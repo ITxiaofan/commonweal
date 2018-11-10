@@ -1,0 +1,151 @@
+body,div,h1,h2,h3,h4,h5,span,p,ul,li{
+    padding: 0;
+    margin: 0;
+}
+/* 头部 sart */
+header{
+    width: 100%;
+    height: 51px;
+    background-color: rgb(48, 48, 48);
+}
+header .nav{
+    width: 1124px;
+    
+    height: 51px;
+    margin: 0 auto;
+    background-color: rgb(48, 48, 48);
+}
+header .nav ul{
+    list-style: none;
+    
+}
+header .nav li{
+    padding: 15px 35px;
+
+    display: inline-block;
+}
+header .nav li:hover{
+    background-color: rgb(255, 90, 34);
+}
+.nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav .active{
+    background-color: rgb(255, 90, 34);
+}
+header .nav li:last-child:hover{
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* 头部 end */
+
+/* 标语 start */
+
+.container .Slogan{
+    width: 1124px;
+    /* background-color: rgb(136, 82, 236); */
+    margin: 0 auto;
+
+}
+.container .Slogan .top{
+    text-align: center;
+    padding-top: 40px;
+}
+.container .Slogan  h1{
+    display: inline-block;
+    color: rgb(255, 90, 34);
+    font-size: 40px;
+}
+.container .Slogan span{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.container .Slogan p{
+    margin-top: 80px;
+}
+
+/* 标语 end */
+/* 社区 start */
+.container .community{
+    width: 1124px;
+    margin: 0 auto;
+    /* background-color: rgb(97, 92, 92); */
+    padding-top: 113px;
+}
+.container .community .comm{
+    
+    padding-left: 52px;
+    display: inline-block;
+   
+}
+.container .comm p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.container .comm .btn{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius:40px;
+    margin-left: 33px;
+    margin-bottom: 105px;
+    border: 1px solid rgb(255, 90, 34);
+    color: rgb(255, 90, 34);
+}
+
+/* 社区 end */
+/* 活动 sart */
+.hd{
+    width: 100%;
+    
+    background-color: rgb(246, 246, 246);
+}
+.hd ul{
+    width: 1124px;
+    margin: 0 auto;
+    list-style: none;
+    padding-top: 30px;
+
+}
+.hd li {
+    margin-top: 50px;
+
+}
+.hd .right{
+    float: right;
+    width: 619px;
+    margin-top: -259px;
+    margin-right: 25px;
+
+}
+.hd .right span{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hd .right p{
+    margin-top: 20px;
+    line-height:25px;
+    color: #aaa;
+}
+.hd .right #btn{
+    width: 68px;
+    padding: 12px 49px;
+    margin-top: 50px;
+    color: #fff;
+    background-color:rgb(255, 90, 34) ;
+
+}
+
+/* 活动 end */

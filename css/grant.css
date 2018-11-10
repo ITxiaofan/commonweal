@@ -1,0 +1,212 @@
+/* header start */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(242, 242, 242);
+}
+header{
+    width: 100%;
+    height: 63px;
+    background-color: rgb(31, 212, 236);
+    overflow: hidden;
+}
+header #cssmenu {
+    float: right;
+    margin-top: 6px;
+}
+header #cssmenu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 63px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+header #cssmenu li:last-child{
+    margin-right: 119px;
+
+}
+header #cssmenu a{ 
+    text-decoration: none;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+header .row img{
+    margin-top: 8px;
+    margin-left: 61px;
+
+}
+/* header end */
+ .container{
+    width: 1124px;
+    margin: 0px auto;
+}
+.container .nav-top{
+    /* background-color: rgb(199, 116, 116); */
+    margin-bottom: 40px;
+
+}
+.container .nav-top img{
+    margin-top: 32px;
+    margin-left: 192px;
+
+}
+.Choice ul li{
+    list-style: none;
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(75, 74, 74);
+}
+
+.Choice li a{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    margin-left: 25px;
+
+}
+.Choice li #tolerant{
+    padding: 5px 10px;
+    /* background-color: skyblue; */
+    background-color: rgb(255, 121,0);
+    
+    margin-left:0px;
+    color: #fff;
+}
+.Choice li select{
+    padding: 4px 16px;
+    color: rgb(134, 134, 134);
+}
+.zxlist ul{
+    margin-top: 30px;
+    list-style: none;
+
+}
+
+.zxlist ul .list-img{
+    height: 160px;
+    width: 278px;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+
+}
+.zxlist .list-img img:first-child{
+    height: 160px;
+}
+.zxlist .list-img .zzzz{
+    position: absolute;
+    width: 90px;
+    margin-left: -14px;
+}
+.zxlist .content{
+    position: relative;
+    width: 258px;
+    height: 153px;
+    background-color: #fff;
+    padding: 16px 10px;
+    
+}
+.zxlist .content .tl{
+    width: 258px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zxlist .content a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+
+}
+.zxlist .content p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ccc;
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+}
+
+.zxlist .content .schedule{
+    position: relative;
+    width: 258px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 15px;
+    display: inline-block;
+
+}
+.zxlist .content .sc{
+    position: absolute;
+    background-color: rgb(255, 121,0);
+    width: 25%;
+    z-index: 3;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: -12px;
+}
+
+
+.zxlist .content .ck,.ck2{
+    display: inline-block;
+    margin-top: 20px;
+}
+.content .ck p:first-child{
+    float: left;
+    margin-top: -2px;
+    margin-left: 3px;
+    color: #000;
+
+}
+
+.content .ck p:last-child{
+    float: left;
+    margin-left: -32px;
+    margin-top: 22px;
+    color: rgb(135, 135, 135);
+}
+
+.content .ck2 p:first-child{
+    float: left;
+    margin-top: -2px;
+    margin-left: 48px;
+    color: #000;
+    
+
+}
+.content .ck2 p:last-child{
+    float: left;
+    margin-left: -32px;
+    margin-top: 22px;
+    color: rgb(135, 135, 135);
+}
+
+.container .page ul{
+    list-style: none;
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    text-align: center;
+    
+    
+   
+}
+.page li {
+     display: inline-block;
+     padding: 10px 15px;
+     border:1px solid rgb(204, 204, 204);
+     background-color: #fff;
+     color: rgb(180, 180, 180);
+}
+.page li a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+
+

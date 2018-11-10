@@ -1,0 +1,459 @@
+/* header start */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #464646;
+    
+}
+
+header{
+    width: 100%;
+    height: 63px;
+    background-color: rgb(31, 212, 236);
+    overflow: hidden;
+}
+header #cssmenu {
+    float: right;
+    margin-top: 6px;
+}
+header #cssmenu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 63px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+header #cssmenu li:last-child{
+    margin-right: 119px;
+
+}
+header #cssmenu a{ 
+    text-decoration: none;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+header .row img{
+    margin-top: 8px;
+    margin-left: 61px;
+
+}
+/* header end */
+
+.container{
+    width: 1124px;
+    margin: 0px auto;
+   
+}
+.container .nav-top{
+    margin-bottom: 40px;
+
+}
+.container .nav-top img{
+    margin-top: 32px;
+    margin-left: 192px;
+
+}
+
+.container .top{
+    width: 1153px;
+    height: 368px;
+    background-color: #fff;
+    padding: 20px;
+}
+.top .left{
+    width: 580px;
+    text-align: center;
+}
+.top .left img{
+    height: 328px;
+}
+.top .right{
+    position: relative;
+    margin-top: -330px;
+    
+    float: right;
+    width: 560px;
+    height: 328px;
+}
+.top .right h2{
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: "黑体";
+    font-weight:bold;
+    margin-top: 0px;
+}
+
+.top .cash{
+    margin-top: 20px;
+    margin-right: 88px;
+    display: inline-block;
+}
+.top .cash .money{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.top .right .jingdu{
+    width: 560px;
+    height: 8px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    display: inline-block;
+}
+.top .right .progress{
+    position: absolute;
+    background-color: rgb(255, 121,0);
+    width: 25%;
+    z-index: 3;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: -13px;
+}
+.top .right .status{
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 67px;
+    font-size: 15px;
+}
+
+.top .right .btn{
+    
+    width: 560px;
+    height: 42px;
+    margin-top: 0px;
+    margin-left: -15px;
+
+}
+.top .right .jk{
+    padding: 9px 102px; 
+    line-height: 42px;
+    background-color: rgb(255, 121,0);
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.tab-wrapper {
+  margin: 60px auto;
+  width: 70%;
+  max-width:500px;
+}
+
+.tab-menu li {
+  position:relative;
+  background-color: #fff;
+  color:#bcbcbc;
+  display: inline-block;
+  padding: 20px 40px;
+  opacity: 0.8;
+  cursor:pointer;
+  z-index:0;
+}
+
+.tab-content>div {
+  background-color: #fff;
+  box-sizing:border-box;
+  width: 100%;
+  padding: 50px;   
+  min-height:200px;
+}
+
+
+/* 选项卡 start */
+.main{
+    margin-top: 30px;
+}
+.main .nav {
+    width: 820px;
+    background-color: #fff;
+}
+
+.main .nav a {
+    color: rgb(24, 24, 24);
+    font-size: 15px;
+    padding: 10px 20px;
+}
+/* .main .nav li>.active{
+    color: rgb(255, 121,0);
+} */
+.main #home ul {
+    padding: 0;
+    width: 848px;
+    margin-top: -34px;
+    margin-left: -36px;
+}
+
+.main #home li {
+    list-style: none;
+    border-top: 1px solid #ccc;
+    width: 792px;
+}
+
+.main #home p {
+    display: inline-block;
+    padding: 8px;
+    margin: 0;
+
+}
+
+.main #home .odd {
+    background-color: rgb(250, 250, 250);
+}
+
+.main #home .bs {
+    margin-right: 82px;
+}
+.main #home {
+    width: 820px;
+    
+}
+.main .tab-content .img{
+    margin-left: 89px;
+}
+/* 选项卡 end */
+
+/* 捐款详情 start */
+.main #profile li{
+    margin-left: -10px;
+    margin-top: -15px;
+    border-bottom: 1px dashed #ddd;
+    height: 112px;
+
+}
+.main #messages .list>li{
+    margin-left: -10px;
+    margin-top: -21px;
+    /* border-bottom: 1px dashed #ddd; */
+    height: 112px;
+
+}
+.main #profile .xq{
+    margin-top: 30px;
+}
+.main #profile li>img{
+    float: left;
+    width:69px;
+    height:50px;
+    margin-top: 0px;
+    margin-left: -21px;
+}
+.main #messages li>img{
+    float: left;
+    width:69px;
+    height:50px;
+    margin-top: 0px;
+    margin-left: -21px;
+
+}
+.main #profile li>a{
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 121,0);
+    display:inline-block;
+    margin-top:0px;
+}
+.main .list li>a{
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 121,0);
+    display:inline-block;
+    margin-top:0px;
+}
+.main #profile .content{
+    display: inline-block;
+    margin-left: 5px;
+}
+.main #messages .content{
+    display: inline-block;
+    margin-left: 5px;
+}
+#profile .content h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+    margin-right: 18px;
+}
+#messages .content h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+    margin-right: 18px;
+
+}
+.main #messages {
+    padding-bottom: 15px;
+}
+.main .content .time{
+    font-size: 12px;
+    color: #aaa;
+    display: inline-block;
+}
+
+.main .content .conten{
+    font-size: 15px;
+}
+.main .right .r1,.r2{
+    float: right;
+    font-size: 14px;
+}
+.main .right .r1{
+    margin-top: -62px;
+    margin-right: -20px;
+}
+.main .right .r2{
+    margin-top: -4px;
+    margin-right: -14px;
+}
+
+/* 翻页 start */
+.container .page ul{
+    
+    list-style: none;
+    width: 100%;
+    height: 61px;
+    margin-top: 54px;
+    text-align: center;  
+}
+.page li {
+    margin-top: 10px;
+     display: inline-block;
+     padding: 10px 15px;
+     border:1px solid rgb(204, 204, 204);
+     background-color: #fff;
+     color: rgb(180, 180, 180);
+}
+.page li a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+.page .active{
+    background-color: rgb(255, 121,0);
+    
+    border: 0px;
+}
+.page .active a{
+    color: #fff;
+}
+.page li a{
+    color: rgb(117, 117, 117);
+    
+}
+/* 翻页 end */
+
+/* 捐款详情 end */
+/* 捐款须知 start */
+.main #settings{
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 16px;
+    
+}
+
+.main #settings h3{
+    margin-bottom: 16px;
+}
+.main #settings .jieshi{
+    text-indent: 27px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 2em;
+
+}
+
+.main #settings .conmment{
+    margin-top: 30px;
+    font-weight: normal;
+    color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 捐款须知 end */
+
+/* main right start */
+.main .right,.right1{
+   
+    width: 320px;
+    background-color: #fff;
+    float: right;
+    margin-right: -13px;
+    /* margin-top: -2858px; */
+    padding-left: 10px;
+}
+.main .right1{
+    
+    margin-top: 264px;
+    float: right;
+    margin-right: -320px;
+
+}
+.main .right h5{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+.main .right1 h5{
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.main .right h4{
+    font-weight: bold;
+    display: inline-block;
+}
+.main .right span{
+    float: right;
+    padding: 5px 10px;
+    background-color: rgb(255, 121,0); 
+    margin: 10px 10px 10px 0px;
+    border-radius: 3px;
+    color: #fff;
+}
+.main .right1 .sr{
+    margin-left: 9px;
+    padding-left: 8px;
+    color: #ddd;
+    width: 260px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+.main .right1 span{
+    float: right;
+    padding: 5px 10px;
+    background-color: rgb(255, 121,0); 
+    margin: 10px 10px 10px 0px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+/* main right end */
+  
